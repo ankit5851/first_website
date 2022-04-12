@@ -1,0 +1,24 @@
+.contact {
+    display: flex
+}
+
+.contact .details {
+    width: 33.33%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact .map {
+    width: 33.33%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+.info {
+    width: 33.33%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Start WOWSlider.com HEAD section -->
+  <link rel="stylesheet" type="text/css" href="/engine1/style.css" />
+  <script type="text/javascript" src="/engine1/jquery.js"></script>
+  <!-- End WOWSlider.com HEAD section -->
+</head>
+<body>
+
+
+    <!-- Start WOWSlider.com BODY section -->
+  <div id="wowslider-container1">
+    <div class="ws_images"><ul>
+        <li><img src="..data1/images/cloudcomputing.png" alt="Cloud-Computing" title="Cloud-Computing" id="wows1_0"/></li>
+        <li><a href="http://wowslider.net"><img src="..data1/images/img2.jpg" alt="javascript photo gallery" title="img2" id="wows1_1"/></a></li>
+        <li><img src="..data1/images/img3.jpg" alt="img3" title="img3" id="wows1_2"/></li>
+      </ul></div>
+      <div class="ws_bullets"><div>
+        <a href="#" title="Cloud-Computing"><span><img src="..data1/tooltips/cloudcomputing.png" alt="Cloud-Computing"/>1</span></a>
+        <a href="#" title="img2"><span><img src="..data1/tooltips/img2.jpg" alt="img2"/>2</span></a>
+        <a href="#" title="img3"><span><img src="..data1/tooltips/img3.jpg" alt="img3"/>3</span></a>
+      </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">javascript carousel</a> by WOWSlider.com v9.0</div>
+    <div class="ws_shadow"></div>
+    </div>	
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
+    <!-- End WOWSlider.com BODY section -->
+
+
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <img src="../assets/image/logo1.png" alt="" height="50px" style="padding-right: 15px;">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              All Courses
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#" >MEAN</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">JAVA</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">RPA</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">DEVOPS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="registration">Registration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="gallery">Photo Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="help">Help</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="form">Form</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="contact_us">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit" style="color: white;">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <hr>
+
+  <div>
+    <router-outlet></router-outlet>   
+  </div>
+
+  <div>
+    <hr>
+    <p style="text-align: center; font-size: x-large; background-color: rgb(50, 50, 255); color: white; padding: 5px;"><b>Trending Courses for Professionals</b></p>
+    <hr>
+  </div>
+
+
+  <div class="card-group">
+    <div class="card">
+      <img src="../assets/image/mean.jpg" class="card-img-top" alt="mean" height="200px" width="25%">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center;"><b>MEAN</b></h5>
+        <p class="card-text">MEAN is a free and open-source JavaScript software stack for building dynamic web sites and web applications. Because all components of the MEAN stack support programs that are written in JavaScript, MEAN applications can be written in one language for both server-side and client-side execution environments.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../assets/image/java.jpg" class="card-img-top" alt="java" height="200px" width="25%">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center;"><b>JAVA</b></h5>
+        <p class="card-text">Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../assets/image/devops.png" class="card-img-top" alt="devops" height="200px" width="25%">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center;"><b>Devops</b></h5>
+        <p class="card-text">DevOps is a set of practices that combines software development and IT operations. It aims to shorten the systems development life cycle and provide continuous delivery with high software quality. DevOps is complementary with Agile software development; several DevOps aspects came from the Agile methodology</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div>
+    <footer class="footer">
+      <p>Designed and devloped by @Ankit Kuamr</p>
+    </footer>
+  </div>
+</body>
+</html>
+

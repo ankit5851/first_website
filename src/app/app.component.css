@@ -1,0 +1,54 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container-fluid {
+    background-color: rgb(50, 50, 255);
+    color: white;
+    padding: 9px;
+    text-align: center;
+}
+
+.container-fluid a {
+    color: white;
+}
+
+.container-fluid a:hover {
+    background-color: green;
+}
+
+.container-fluid .dropdown-item {
+    color: rgb(50, 50, 255);
+    padding: 3px;
+}
+
+.container-fluid .dropdown-item:hover
+{
+    background-color: green;
+}
+
+.top-left {
+    position: absolute;
+    top: 16px;
+    left: 32px;
+}
+
+.footer {
+    background-color: rgb(50, 50, 255);
+    padding: 60px;
+    text-align: center;
+    color: white;
+  }
+
+.card {
+    border: 5px solid rgb(50, 50, 255);
+    margin: 5px;
+}  
+
+.card h5 {
+    background-color: rgb(50, 50, 255); color: white;
+}
